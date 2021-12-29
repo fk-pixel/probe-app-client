@@ -83,7 +83,7 @@ export default function Dashboard() {
       </div>
       {inputValue &&
         <div>
-          <h4 className="mt-4">Your summary for a last{inputValue}:</h4>
+          <h4 className="mt-4">Your summary for a {inputValue}:</h4>
           <Table>
             <thead>
               <tr>
